@@ -1,57 +1,30 @@
 package MyList;
 
+public interface MyList<E> {
 
-public class MyList {
+    int size();
 
-    public int size() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    boolean isEmpty();
 
-    public boolean isEmpty() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    boolean contains(Object o);
 
-    public boolean contains(Object o) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    boolean add(E e);
 
-    public boolean add(Object e) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    boolean remove(Object o);
 
-    public boolean remove(Object o) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    void clear();
 
-    public void clear() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    E get(int index);
 
-    public Object get(int index) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    E set(int index, E element);
 
-    public Object set(int index, Object element) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    void add(int index, E element);
 
-    public void add(int index, Object element) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    E remove(int index);
 
-    public Object remove(int index) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    int indexOf(Object o);
 
-    public int indexOf(Object o) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    int lastIndexOf(Object o);
 
-    public int lastIndexOf(Object o) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-
-    public MyList subList(int fromIndex, int toIndex) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    MyList<E> subList(int fromIndex, int toIndex);
 }
