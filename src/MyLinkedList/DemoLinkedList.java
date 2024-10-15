@@ -2,7 +2,7 @@ package MyLinkedList;
 
 import java.util.LinkedList;
 
-public class MyLinkedList {
+public class DemoLinkedList {
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<String>();
         System.out.println("Empty list:" + list);
